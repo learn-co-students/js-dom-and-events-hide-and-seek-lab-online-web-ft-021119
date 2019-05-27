@@ -11,9 +11,6 @@ function deepestChild() {
    return deepest[deepest.length - 1]
 }
 
-const callbackFunc = function (el) {
-   el.innerHTML = `${parseInt(el.innerHTML) + n}`
-}
 
 function increaseRankBy(n) {
    const rankedLists = document.querySelectorAll('ul.ranked-list li')
