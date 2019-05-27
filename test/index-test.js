@@ -20,7 +20,7 @@ describe( 'index', () => {
 
   describe( 'increaseRankBy(n)', () => {
     it( 'increases ranks in .ranked-list by n', () => {
-      increaseRankBy( 3 )
+      increaseRankBy(3)
 
       const rankedLists = document.querySelectorAll( '.ranked-list' )
       const firstList = rankedLists[ 0 ]
